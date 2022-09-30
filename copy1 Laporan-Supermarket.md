@@ -246,6 +246,10 @@ Runtime cukup cepat sehingga dapat menangani *imbalance data*
 Ketika digunakan untuk regresi, model tidak dapat memprediksi di luar jangkauan dalam data training dan kemungkinan dataset akan over-fit dan noisy.
 
 
+Pada kasus ini, serangkaian model developmentnya didefinisikan menggunakan beberapa model yang berbeda menggunakan kamus nama masing-masing model.
+Setelah itu kita dapat iterasi pada setiap model menggunakan preprocessor dan skalar yang sama. Pada pembuatan scaler, dia akan memberikan kolom dengan nilai range yang sama. Di sini kita menggunakan StandardScaler. Kemudian, untuk setiap model pada items models, kita konstruksikan final pipeline dengan membuat pipeline baru menggunakan preprocessor dan scaler yang sama.
+Kita masukkan syntax regressor karena merupakan model dari machine learning itu sendiri. Setelah membuat pipeline, maka kita fit-kan. Lalu berikan pesan konfirmasi bahwa beberapa model dengan algoritma berbeda sudah ditraining.
+
 ## Evaluation
 
 Selisih nilai sebenarnya dengan nilai prediksi disebut **error.**
