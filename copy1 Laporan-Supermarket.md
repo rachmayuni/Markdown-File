@@ -159,7 +159,7 @@ Presentase pelanggan yang member dan pelanggan yang bukan member (normal) hampir
 \
 ![gambar 13](https://github.com/rachmayuni/Foto-Proyek-Prediksi-1---Dicoding/blob/main/13.png?raw=true)
 
-Untuk fitur numerik / nominal, dapat dilihat melalui histogram berikut.
+Untuk fitur numerik / nominal, dapat dilihat melalui histogram berikut.\
 ![gambar 14](https://github.com/rachmayuni/Foto-Proyek-Prediksi-1---Dicoding/blob/main/14.png?raw=true)
 
 Histogram untuk variabel **“rating”** yang merupakan fitur target (label) pada data, dapat diperolah informasi sebagai berikut:
