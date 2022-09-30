@@ -151,7 +151,9 @@ Kolom sisanya (Branch, City, Product_line, payment) adalah nominal.
 **Binary_features**
 \
 ![gambar 12](https://github.com/rachmayuni/Foto-Proyek-Prediksi-1---Dicoding/blob/main/12.png?raw=true)
+\
 Presentase pelanggan yang member dan pelanggan yang bukan member (normal) hampir sepadan.
+\
 
 **Nominal_features**
 \
@@ -265,6 +267,6 @@ Dapat dilihat bagaimana model algoritma yang berbeda telah dibandingkan dan dapa
 
 
 ## References
-[1] T. Utomo, "PERSAINGAN BISNIS RITEL: TRADISIONAL VS MODERN", _Ejournal.stiepena.ac.id_, 2022. [Online]. Available: http://ejournal.stiepena.ac.id/index.php/fe/article/view/151. [Accessed: 29- Sep- 2022]
+[1] T. Utomo, "PERSAINGAN BISNIS RITEL: TRADISIONAL VS MODERN", _Ejournal.stiepena.ac.id_, 2022. [Online]. Available: http://ejournal.stiepena.ac.id/index.php/fe/article/view/151. [Accessed: 29- Sep- 2022] \
 [2] "Understanding Boxplots", _Built In_, 2022. [Online]. Available: https://builtin.com/data-science/boxplot. [Accessed: 29- Sep- 2022]
 
