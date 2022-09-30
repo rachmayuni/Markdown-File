@@ -53,7 +53,7 @@ Output kode di atas memberikan informasi sebagai berikut:
 
 - Ada 1000 baris (records) dalam dataset.
 
-- Terdapat 17 kolom, yaitu: Invoice_ID, Branch, City, Costumer_type, Gender, Product_line, Unit_Price, Quantity, tax_five_percent Total, Date, Time, Payment, Cogs, Gross Margin Percentange, Gross Income, Rating.
+- Terdapat 17 kolom, yaitu: *Invoice_ID, Branch, City, Costumer_type, Gender, Product_line, Unit_Price, Quantity, tax_five_percent Total, Date, Time, Payment, Cogs, Gross Margin Percentange, Gross Income, Rating*.
 
 ## Exploratory Data Analysis - Deskripsi Variabel
 Tahap ini adalah tahap menganalisis karakteristik, menemukan pola, anomaly, dan memeriksa asumsi data.
@@ -209,6 +209,7 @@ Pada **train_test_split** pada proyek ini, proporsi pembagian data latih dan dat
 - Total # of sample in test dataset: 300
 
 **Standarisasi**
+
 Fitur standarisasi hanya diterapkan di fitur data latih. Kapan kita menerapkan nya pada data test? Nanti pada tahap evaluasi.
 
 Selanjutnya adalah, mengkombinasikan semuanya dan memberitahukan pipeline; kolom mana yang menjadi target dari setiap transformer. Lalu menyimpannya pada variabel preprocessor.
