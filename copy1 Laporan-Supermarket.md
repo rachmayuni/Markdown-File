@@ -106,6 +106,7 @@ Data columns (total 17 columns):*
 |  14 |     gmp   |          1000 non-null      |    float64    | 
 |  15 |    gi    |      1000 non-null           |       float64 |
 |  16 |     Rating   |      1000 non-null           |       float64 |
+
 *dtypes: float64(7), int64(1), object(9) memory usage: 132.9+ KB*
 
 Dari output terlihat bahwa:
@@ -148,10 +149,12 @@ Pada kolom costumer_type dan gender, mereka hanya memiliki dua pilihan, yaitu: 0
 Kolom sisanya (Branch, City, Product_line, payment) adalah nominal. 
 
 **Binary_features**
+\
 ![gambar 12](https://github.com/rachmayuni/Foto-Proyek-Prediksi-1---Dicoding/blob/main/12.png?raw=true)
 Presentase pelanggan yang member dan pelanggan yang bukan member (normal) hampir sepadan.
 
 **Nominal_features**
+\
 ![gambar 13](https://github.com/rachmayuni/Foto-Proyek-Prediksi-1---Dicoding/blob/main/13.png?raw=true)
 
 Untuk fitur numerik / nominal, dapat dilihat melalui histogram berikut.
