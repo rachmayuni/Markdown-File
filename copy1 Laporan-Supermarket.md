@@ -45,7 +45,7 @@ Masuk ke dalam proses pembacaan data (**data loading**).
 Dataset yang digunakan adalah **supermarket_sales.csv**
 
 Di sini kita mengunggah data ke Google Drive, lalu import library yang dibutuhkan.
-Lalu simpan dataset di variable **stuff**
+Lalu simpan dataset di variable **stuff**.
 
 Untuk memudahkan, saya menghilangkan spasi dalam judul kolom dan menggantinya dengan _ (underscore) sebelum dataset diunggah ke Google drive. 
 
